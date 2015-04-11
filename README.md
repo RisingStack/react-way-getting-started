@@ -21,6 +21,10 @@ npm start
 
 Check your http://localhost:8080/ or  `open http://localhost:8080/`
 
+## How to test
+
+`npm test`
+
 ## How to start code
 
 Run:  
