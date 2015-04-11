@@ -1,5 +1,7 @@
 # react-way-getting-started
 
+https://travis-ci.org/RisingStack/react-way-getting-started.svg?branch=master  
+
 Getting started with React and ES6
 
 Used technologies:  
