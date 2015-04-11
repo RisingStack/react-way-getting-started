@@ -1,6 +1,6 @@
 # react-way-getting-started
 
-https://travis-ci.org/RisingStack/react-way-getting-started.svg?branch=master  
+[![Build Status](https://travis-ci.org/RisingStack/react-way-getting-started.svg?branch=master)](https://travis-ci.org/RisingStack/react-way-getting-started)  
 
 Getting started with React and ES6
 
