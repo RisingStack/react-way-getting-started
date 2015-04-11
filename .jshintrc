@@ -16,5 +16,11 @@
   "unused": true,
   "trailing": true,
   "smarttabs": true,
-  "newcap": false
+  "newcap": false,
+  "globals": {
+    "jest": false,
+    "describe": false,
+    "it": false,
+    "expect": false
+  }
 }

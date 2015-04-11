@@ -4,7 +4,7 @@
   "description": "The React Way - Getting Started",
   "main": "src/server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node src/server/index.js",
     "postinstall": "webpack --config config/webpack.js",
     "webpack": "webpack --config config/webpack.js",
@@ -29,6 +29,17 @@
     "babel": "^5.0.12",
     "babel-core": "^5.0.12",
     "babel-loader": "^5.0.0",
+    "jest-cli": "^0.4.0",    
     "webpack": "^1.8.4"
+  },
+  "jest": {
+    "scriptPreprocessor": "./tools/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "react"
+    ],
+    "testPathDirs": [
+      "./src/app",
+      "./src/client"
+    ]
   }
 }
