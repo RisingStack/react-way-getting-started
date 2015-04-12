@@ -1,15 +1,21 @@
-var http  = require('http');
-var path = require('path');
-var nodeStatic = require('node-static');
-var fileServer = new nodeStatic.Server(path.resolve(__dirname, '../client'));
+import path from 'path';
+import Express from 'express';
 
-var PORT = process.env.PORT || 8080;
+var app = Express();
+var server;
 
-http.createServer(function (request, response) {
-  request.addListener('end', function () {
-    fileServer.serve(request, response);
-  }).resume();
-})
-.listen(PORT, function () {
-  console.log('server is listennin on: ' + PORT);
+const PATH_STYLES = path.resolve(__dirname, '../client/styles');
+const PATH_DIST = path.resolve(__dirname, '../../dist');
+
+app.use('/styles', Express.static(PATH_STYLES));
+app.use(Express.static(PATH_DIST));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '../client/index.html'));
+});
+
+server = app.listen(process.env.PORT || 3000, () => {
+  var port = server.address().port;
+
+  console.log('Server is listening at %s', port);
 });
