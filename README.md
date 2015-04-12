@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/RisingStack/react-way-getting-started.svg?branch=master)](https://travis-ci.org/RisingStack/react-way-getting-started)  
 
-#### Related blog post: http://blog.risingstack.com/the-react-way-getting-started
+**Related blog post:**  
+http://blog.risingstack.com/the-react-way-getting-started
 
 Getting started with React and ES6
 
