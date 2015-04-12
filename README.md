@@ -13,6 +13,7 @@ Used technologies:
 - ES6
 - Webpack
 - Babel
+- Jest
 
 ## How to start
 
