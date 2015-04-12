@@ -1,8 +1,8 @@
-jest.dontMock('../AppRoot.jsx');
+jest.dontMock('../AppRoot');
 
 import React from 'react/addons';
-import AppRoot from '../AppRoot.jsx';
-import Cart from '../Cart.jsx';
+import AppRoot from '../AppRoot';
+import Cart from '../Cart';
 
 var TestUtils = React.addons.TestUtils;
 var state = {

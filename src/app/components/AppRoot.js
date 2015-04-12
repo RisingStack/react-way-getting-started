@@ -1,5 +1,5 @@
 import React from 'react/addons';
-import Cart from './Cart.jsx';
+import Cart from './Cart';
 
 import config from '../../../config/app';
 

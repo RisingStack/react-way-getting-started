@@ -1,7 +1,7 @@
 import React from 'react/addons';
 import Debug from 'debug';
 
-import AppRoot from './components/AppRoot.jsx';
+import AppRoot from './components/AppRoot';
 
 var debug = Debug('myApp');
 

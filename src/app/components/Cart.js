@@ -1,5 +1,5 @@
 import React from 'react/addons';
-import Item from './Item.jsx';
+import Item from './Item';
 
 /*
  * @class Cart

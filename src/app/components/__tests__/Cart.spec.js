@@ -1,8 +1,8 @@
-jest.dontMock('../Cart.jsx');
+jest.dontMock('../Cart');
 
 import React from 'react/addons';
-import Cart from '../Cart.jsx';
-import Item from '../Item.jsx';
+import Cart from '../Cart';
+import Item from '../Item';
 
 var TestUtils = React.addons.TestUtils;
 var cartProp = {
