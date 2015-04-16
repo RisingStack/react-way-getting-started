@@ -1,6 +1,9 @@
-# react-way-getting-started
+# The React Way: Getting Started
 
 [![Build Status](https://travis-ci.org/RisingStack/react-way-getting-started.svg?branch=master)](https://travis-ci.org/RisingStack/react-way-getting-started)  
+
+**Related blog post:**  
+http://blog.risingstack.com/the-react-way-getting-started
 
 Getting started with React and ES6
 
@@ -10,6 +13,7 @@ Used technologies:
 - ES6
 - Webpack
 - Babel
+- Jest
 
 ## How to start
 
